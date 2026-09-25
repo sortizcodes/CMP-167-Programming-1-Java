@@ -73,7 +73,7 @@ public class NarniaTransit {
     } //end if
     else{
 
-    if(regionNumber > 3 && regionNumber <= 4 && customerType.equals("Magician")) {
+    if((regionNumber == 3 || regionNumber == 4) && customerType.equals("Magician")) {
  
         price = 22.0;
 
