@@ -1,4 +1,4 @@
-//HW 4-1 Hints/Classnotes
+//HW 4-1 Hints & Class notes
 //(Region) and (CX Type) are the inputs that determine the output (Price)
 
 //INPUT: (The region number), (The customer type) & Your prompts to the user must be: (Enter the region number:) , (Enter hunter or magician:)
@@ -54,26 +54,26 @@ public class NarniaTransit {
 
     double price = 0.0;
 
-    if(region >= 2) {
+    if(regionNumber <= 2 && customerType.equals("Hunter")) {
  
         price = 13.0;
     } //end IF
     else{
 
-    if(region >= 2) {
+    if(regionNumber <= 2 && customerType.equals("Magician")) {
  
         price = 16.5;
     } //end if
     else{
 
-     if(region = 3) {
+     if(regionNumber == 3 && customerType.equals("Hunter")) {
  
         price = 31.5;
 
     } //end if
     else{
 
-    if(region > 3 && region <= 4) {
+    if(regionNumber > 3 && regionNumber <= 4 && customerType.equals("Magician")) {
  
         price = 22.0;
 
@@ -90,4 +90,13 @@ public class NarniaTransit {
 }
 
 
-   
+
+
+ //HW 4-2 Hints & Class notes
+
+ //age >= 16
+ //temp < 32
+ //score < 60
+ //speed > 65
+//money == 0
+//age > 12 && age <= 19 (you are a teenager (over 12 and 19 or younger)
