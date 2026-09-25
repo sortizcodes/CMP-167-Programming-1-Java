@@ -1,4 +1,4 @@
-//HW 4-1 hints
+//HW 4-1 Hints/Classnotes
 //(Region) and (CX Type) are the inputs that determine the output (Price)
 
 //INPUT: (The region number), (The customer type) & Your prompts to the user must be: (Enter the region number:) , (Enter hunter or magician:)
@@ -33,17 +33,61 @@ public class NarniaTransit {
     System.out.println("Enter region number: "); //Prompt for region number
     int regionNumber = input.nextInt(); //Get the region from the user
 
-    System.out.println("Enter hunter or magician: "); //Prompt for customer type
+    System.out.println("Enter hunter or magician: "); //Prompt for customer type (hunter or magician)
     String customerType = input.next(); //Get the customer type from the user 
 
 //===============================================================//
 
-    
-        
+//PROCESS: 
+// This procress does not need any calculations
+// We need (control flow) in this process (if/else)
+//Two inputs which control the flow of the (price)
+//We need a new variable called price to be introduced in the process stage
 
 
-        
+//===========================PROCESS================================//
+    //How can we set the price: 
+    // (4 if statements because their are 4 bulletpoints, which will set the price)
+    // 1. if (2 or smaller, hunter, price = 13.0)
+    // 2. if (2 or smaller, magician, price = 16.5)
+
+
+    double price = 0.0;
+
+    if(region >= 2) {
+ 
+        price = 13.0;
+    } //end IF
+    else{
+
+    if(region >= 2) {
+ 
+        price = 16.5;
+    } //end if
+    else{
+
+     if(region = 3) {
+ 
+        price = 31.5;
+
+    } //end if
+    else{
+
+    if(region > 3 && region <= 4) {
+ 
+        price = 22.0;
+
+
+    }//end if
+
+}
+
     }
+
+    
+    }
+}
 }
 
 
+   
