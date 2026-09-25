@@ -1,0 +1,49 @@
+//HW 4-1 hints
+//(Region) and (CX Type) are the inputs that determine the output (Price)
+
+//INPUT: (The region number), (The customer type) & Your prompts to the user must be: (Enter the region number:) , (Enter hunter or magician:)
+
+// "Your prompts to the user" - we're getting INPUT from user (Scanner)
+// We're given prompts - (Enter the region number:) , (Enter hunter or magician:)
+// 2 Inputs for the program
+// Program didn't give us the names of the variables for the inputs but we can create our own, hoewever we have hints
+//Program didn't give us the data type of the inputs, however we have hints (eg. Double, Float)
+//HINTS: In the OUTPUT & PROCESS part of specs 
+
+
+/**
+ @author: Samantha
+ @date: 09/24/26 8:36PM 
+ @version: 1.0
+ @description: This program represents a train station.
+ In which you provide the region and customer type to
+ find out how much the fare is to use the system. 
+ */
+ 
+
+import java.util.Scanner; // I am using this for user input (Scanner)
+
+public class NarniaTransit {
+    public static void main(String[] args) {
+
+//===========================INPUT================================//
+
+    Scanner input = new Scanner(System.in); //Used for getting input from the user
+
+    System.out.println("Enter region number: "); //Prompt for region number
+    int regionNumber = input.nextInt(); //Get the region from the user
+
+    System.out.println("Enter hunter or magician: "); //Prompt for customer type
+    String customerType = input.next(); //Get the customer type from the user 
+
+//===============================================================//
+
+    
+        
+
+
+        
+    }
+}
+
+
